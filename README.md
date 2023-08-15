@@ -1,6 +1,8 @@
 # Getting Started with Create React App
+You can Preview and use the website here [TExtUtils - Home]( http://sheikhshakir.me/textutils/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
