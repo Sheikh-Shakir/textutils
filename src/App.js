@@ -1,6 +1,7 @@
 import './App.css';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
+// import Navbar from './components/NAvbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react';
 import About from './components/About';
@@ -44,10 +45,10 @@ function App() {
           <Routes>
             <Route exact
               path='/about'
-              element={<About />
+              element={<About mode={mode} />
               }
             />
-            <Route exact path='/' element={<TextForm heading="Enter the text to analyze below" mode={mode} showAlert={showAlert} />}>
+            <Route exact path='/' element={<TextForm heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode} showAlert={showAlert} />}>
             </Route>
           </Routes>
 
